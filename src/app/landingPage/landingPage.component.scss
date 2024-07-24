@@ -1,0 +1,26 @@
+h6{
+    margin: 0;
+    font-size: 32px;
+}
+
+h1{
+    font-size: 64px;
+}
+section{
+    font-family: 'Raleway';
+    color: white;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/img/1_hero/JPG/hero_bg.jpg');
+    // background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBarDivClass{
+    width:100%;
+}
