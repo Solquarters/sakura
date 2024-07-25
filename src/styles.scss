@@ -21,3 +21,292 @@
   body{
     margin: 0;
   }
+
+
+  html 
+		{
+			scroll-behavior: smooth;
+            
+		}
+
+        .headline
+		{
+			color: #feebaf;
+            font-size: 96px;
+            font-family: "Raleway", sans-serif;
+            font-weight: bold;
+		}
+
+        .myBody
+        {
+            font-size: 24px;
+            font-family: "Raleway", sans-serif;
+            
+			margin:0;
+            background-color:white;
+            border: solid 0px black;     
+        }
+
+        .main-container
+        {
+            // background-image:url(./img/section1/hero_bg.jpg);
+            background-size: cover;
+
+            height: 100vh;
+            width: 100%;
+           
+
+            color:white;
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+        }
+
+        .menuBar
+        {
+            position: absolute;
+            top: 0px;
+            width: 90%;
+            height: 112px;
+            
+
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }   
+
+        .logo
+        {
+            width: 64px;
+            height: 64px;
+
+        }
+
+        .menulinkdiv
+        {
+            
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menubuttons
+        {
+            color: white;
+            margin:20px;
+           
+            text-decoration:none;
+            font-weight: 300
+        }
+
+        .telbtn
+        {
+            background-color: #9F0908;
+            color: white;
+            padding:12px;
+            padding-right: 12px;
+            border-radius: 12px;
+            outline-color: white;
+            outline-width: 2px;
+            outline-style: solid;
+
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .phonelogo
+        {
+            width: 28px;
+            height: 28px;
+            margin-right:6px;
+            
+            
+        }
+
+        .orderSection
+        {
+            background-color: white;
+            
+            width: 100%;
+            padding-bottom: 120px;
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+        }
+
+        h2
+        {
+            font-size: 80px;
+            font-family: "Raleway", sans-serif;
+            font-weight: bold;
+
+            color: #9F0908;
+            margin-top:0;
+            margin-bottom: 64px;
+            padding-top:120px;
+        }
+
+        .orderSectionIconBar
+        {
+            width: 100%;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+
+            font-size: 56px;
+            font-family: "Economica", sans-serif;
+            font-weight: bold;
+        }
+
+        .iconsAndTextCont
+        {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+            text-align: center;
+        }
+
+        .orderSectionIcons
+        {
+            width: 128px;
+            height: 128px;
+
+        }
+
+        .ourMenuSection
+        {
+            // background-image:url(./img/section3/section_our_menu_bg.jpg);
+            background-size: cover;
+
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+
+            width: 100%;
+
+            font-size: 56px;
+            font-family: "Economica", sans-serif;
+            font-weight: bold;
+
+            padding-bottom:120px;
+        }
+
+        .ourMenuSectionIcon1
+        {
+
+            width: 352px;
+            height: 352px;
+            margin-right: 80px;
+        }
+
+        .dish1
+        {
+            
+            width:80%;
+            display:flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .ourMenuTable
+        {
+            font-size: 32px;
+            font-family: "Raleway", sans-serif;
+            font-weight: bold;
+            color: #675E54;
+        }
+
+       
+        .dish2
+        {
+            width:80%;
+            display:flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+      
+
+        .ourMenuSectionIcon2
+        {
+
+            width: 352px;
+            height: 352px;
+            margin-left: 80px;
+
+
+        }
+
+        .findUsSection
+        {
+
+            
+            width: 100%;
+            height: 1000px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .findUsHeadline
+        {
+            margin-bottom: 8px!important;
+            padding-top:120px;
+        }
+
+        .mapIcon
+        {
+            width: 24px;
+            height: 24px;
+        }
+
+        .adressLine
+        {
+            padding-bottom: 64px;
+        }
+        .googleMaps
+        {
+            width:100%;
+            height: 800px;
+        }
+
+
+        .footer
+        {
+            background-color: #0A141E;
+            height: 144px;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+           
+        }
+
+
+        .bottomLogo
+        {
+            height: 44px;
+        }
+
+        .bottomLeftLogoCont
+        {
+            height: 44px;
+            background-color: #feebaf;
+        }
+        
+        .socialMediaLinks
+        {
+            height: 40px;
+            width: 40px;
+            
+        }
